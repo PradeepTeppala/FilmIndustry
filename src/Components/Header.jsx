@@ -7,9 +7,7 @@ function Header() {
       <div className="header-container">
         <div className="header-content">
           <div className="title">
-            <h1>
-              FilmIndustry.com
-            </h1>
+            <h1>FilmIndustry.com</h1>
           </div>
           <div className="header-menu">
             <p>Home</p>
@@ -18,7 +16,6 @@ function Header() {
             <p>Webseries</p>
             <img src="/src/Components/Assets/user.png" alt="Account" />
           </div>
-
         </div>
       </div>
     </>
