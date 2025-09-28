@@ -1,0 +1,44 @@
+.footer-container{
+    background-color: rgb(22, 196, 22);
+    padding-bottom: 0;
+}
+.social-media{
+    display: block;
+    text-align: right;
+    margin: auto 100px;
+    height: 100px;
+}
+.social-media h2{
+    padding-top: 20px;
+    padding-bottom: 10px ;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.social-media a{
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    color:black
+}
+.Facebook:hover {
+  color: #0b4bd4;
+}
+.Twitter:hover {
+  color: black;
+}
+.Instagram:hover {
+  color: #e4405f;
+}
+.YouTube:hover {
+  color: #ff0000;
+}
+
+.copyright-section{
+    height: 60px;
+    background: black;
+    color:green;
+    text-align: center;
+}
+.copyright-section h3{
+    padding: 5px;
+}

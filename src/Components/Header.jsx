@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { VscAccount } from "react-icons/vsc";
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
             <p>Industry</p>
             <p>Movies</p>
             <p>Webseries</p>
-            <img src="/src/Components/Assets/user.png" alt="Account" />
+            <VscAccount className="Account" />
           </div>
         </div>
       </div>

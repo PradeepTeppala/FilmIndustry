@@ -1,0 +1,45 @@
+.movies-content h1 {
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  width: 20%;
+}
+
+.movies-list {
+  display: block;
+  width: auto;
+}
+
+.movies-list span {
+  height: 1px;
+  display: block;
+}
+
+.movies-list h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 12px 50px;
+  background: linear-gradient(45deg, green 30%, black 50%);
+}
+
+.movie-posters {
+  display: flex;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.movie-posters img {
+  padding: 10px;
+  height: 180px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.movie-posters img:hover {
+  cursor: pointer;
+  z-index: 1;
+  transform: scale(1.1);
+}

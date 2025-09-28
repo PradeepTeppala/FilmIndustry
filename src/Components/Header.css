@@ -36,9 +36,6 @@
   width: 100%;
   margin-right: 70px;
 }
-img {
-  height: 20px;
-  align-items: center;
-  justify-content: center;
-  color: white;
+.Account {
+  font-size: 20px;
 }

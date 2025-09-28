@@ -1,4 +1,3 @@
-import Header from "./Components/Header"
 import Home from "./Components/Home"
 
 function App() {
@@ -6,7 +5,6 @@ function App() {
 
   return (
     <>
-      <Header/>
       <Home/>
     </>
   )
