@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 import { BsSearch } from "react-icons/bs";
 import Footer from "./Footer";
@@ -27,16 +28,25 @@ function Home() {
           </div>
 
           <div className="industry-menu">
-            <p>TollyWood</p>
-            <p>BollyWood</p>
-            <p>KollyWood</p>
-            <p>MollyWood</p>
-            <p>SandleWood</p>
+            <Link className="industry-name" to="/tollywood">
+              tollywood
+            </Link>
+            <Link className="industry-name" to="/bollywood">
+              bollywood
+            </Link>
+            <Link className="industry-name" to="/kollywood">
+              kollywood
+            </Link>
+            <Link className="industry-name" to="/mollywood">
+              mollywood
+            </Link>
+            <Link className="industry-name" to="/sandalwood">
+              sandalwood
+            </Link>
           </div>
         </div>
       </div>
       <HomeMovies />
-
       <Footer />
     </>
   );

@@ -1,4 +1,4 @@
-.tollywoodheader-container {
+.kollywoodheader-container {
   background: linear-gradient(45deg, rgb(11, 214, 11) 10%, black 70%);
   padding: 0 20px;
   height: 80px;
@@ -13,7 +13,7 @@
   cursor: pointer;
 }
 
-.tollywoodheader-menu {
+.kollywoodheader-menu {
   display: flex;
   color: white;
   gap: 20px;
@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 
-.tollywoodheader-content {
+.kollywoodheader-content {
   display: flex;
   justify-content: space-between;
   align-items: center;

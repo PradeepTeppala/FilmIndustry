@@ -51,7 +51,7 @@
 
 /*============================== Industry Menu =========================== */
 
-.industry-menu p {
+.industry-menu .industry-name {
   display: inline-block;
   margin: 20px;
   padding: 12px 25px;
@@ -60,10 +60,11 @@
   color: rgb(34, 204, 34);
   border-radius: 25px;
   cursor: pointer;
+  text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 
-.industry-menu p:hover {
+.industry-menu .industry-name:hover {
   background: rgb(23, 219, 23);
   color: black;
 }

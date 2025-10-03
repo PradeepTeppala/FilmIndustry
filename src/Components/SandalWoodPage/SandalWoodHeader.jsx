@@ -1,17 +1,17 @@
 import React from "react";
 import { VscAccount } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import "./TollyWoodHeader.css";
+import "./SandalWoodHeader.css";
 
-function TollyWoodHeader() {
+function SandalWoodHeader() {
   return (
     <>
-      <div className="tollywoodheader-container">
-        <div className="tollywoodheader-content">
+      <div className="sandalwoodheader-container">
+        <div className="sandalwoodheader-content">
           <div className="title">
-            <h1>TollyWood</h1>
+            <h1>SandalWood</h1>
           </div>
-          <div className="tollywoodheader-menu">
+          <div className="sandalwoodheader-menu">
             <Link to="/">Home</Link>
             <p>Industry</p>
             <p>Movies</p>
@@ -24,4 +24,4 @@ function TollyWoodHeader() {
   );
 }
 
-export default TollyWoodHeader;
+export default SandalWoodHeader;

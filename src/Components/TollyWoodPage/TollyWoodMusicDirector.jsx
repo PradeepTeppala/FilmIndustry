@@ -10,6 +10,16 @@ function TollyWoodMusicDirector() {
           {TollyWoodMusicDirectorsData.map((MusicDir) => (
             <div key={MusicDir.id}>
               <img src={MusicDir.image} alt="" />
+              <div className="MusicDir-details">
+                <h3>{MusicDir.name}</h3>
+                <a
+                  href={MusicDir.Link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More Info
+                </a>
+              </div>
             </div>
           ))}
         </div>
