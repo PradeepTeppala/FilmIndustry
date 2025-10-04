@@ -1,0 +1,53 @@
+.bollywoodhero-container {
+  margin: auto;
+  padding: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.bollywoodhero-container::-webkit-scrollbar {
+  display: none;
+}
+
+.bollywood-musicdirectors {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+}
+
+.bollywood-musicdirectors img {
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  background-color: black;
+  margin: 50px 32px;
+  flex-shrink: 0;
+}
+
+.bollywood-musicdirectors img:hover {
+  cursor: pointer;
+  z-index: 1;
+  transform: scale(1.1);
+  background-color: rgb(19, 177, 19);
+  box-shadow: 10px 10px 5px black;
+}
+
+.MusicDir-details {
+  text-align: center;
+  margin-top: -30px;
+}
+.MusicDir-details h3 {
+  color: black;
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+}
+.MusicDir-details a {
+  color: #1db954;
+  text-decoration: none;
+  font-size: 16px;
+}
+.MusicDir-details a:hover {
+  text-decoration: underline;
+}

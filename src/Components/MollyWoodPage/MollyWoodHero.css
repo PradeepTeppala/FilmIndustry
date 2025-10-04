@@ -1,0 +1,53 @@
+.mollywoodhero-container {
+  margin: auto;
+  padding: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.mollywoodhero-container::-webkit-scrollbar {
+  display: none;
+}
+
+.mollywood-heros {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+}
+
+.mollywood-heros img {
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  background-color: black;
+  margin: 50px 32px;
+  flex-shrink: 0;
+}
+
+.mollywood-heros img:hover {
+  cursor: pointer;
+  z-index: 1;
+  transform: scale(1.1);
+  background-color: rgb(19, 177, 19);
+  box-shadow: 10px 10px 5px black;
+}
+
+.hero-details {
+  text-align: center;
+  margin-top: -30px;
+}
+.hero-details h3 {
+  color: black;
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+}
+.hero-details a {
+  color: #1db954;
+  text-decoration: none;
+  font-size: 16px;
+}
+.hero-details a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.sandalwoodhero-container {
+  margin: auto;
+  padding: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.sandalwoodhero-container::-webkit-scrollbar {
+  display: none;
+}
+
+.sandalwood-directors {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+}
+
+.sandalwood-directors img {
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  background-color: black;
+  margin: 50px 32px;
+  flex-shrink: 0;
+}
+
+.sandalwood-directors img:hover {
+  cursor: pointer;
+  z-index: 1;
+  transform: scale(1.1);
+  background-color: rgb(19, 177, 19);
+  box-shadow: 10px 10px 5px black;
+}
