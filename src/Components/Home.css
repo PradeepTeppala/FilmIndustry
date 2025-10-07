@@ -1,42 +1,46 @@
 .home-container {
   display: block;
   text-align: center;
+  font-family: "rajadhani", sans-serif;
 }
 
 .home-content {
-  height: 650px;
+  height: 670px;
   margin: 0;
   background-color: rgba(0, 0, 0, 0.92);
 }
 
 .home-content h1 {
   padding-top: 150px;
-  font-size: 100px;
-  padding-bottom: 8px;
-  text-shadow: 1px 5px 7px rgb(31, 234, 31);
+  font-size: 70px;
+  text-shadow: 1px 5px 7px #00ff9d;
+  text-transform: uppercase;
 }
 
 .home-content p {
   font-size: 19px;
-  margin: auto 100px;
-  color: rgb(35, 223, 35);
+  margin: auto 70px;
+  color: #00ff9d;
+  font-family: 'Rajdhani', sans-serif;
 }
-
-/*========================= Search Bar ========================== */
 
 .search-box {
   position: relative;
   width: 500px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   border: none;
 }
 .search-box input {
   width: 100%;
   padding: 10px 20px;
   border-radius: 25px;
-  border: none;
+  border: 1px solid #00ff9d;
   font-size: 16px;
+  color: #00ff9d;
+  background-color: black;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .search-box .search-icon {
@@ -45,26 +49,26 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 18px;
-  color: black;
+  color: #00ff9d;
   cursor: pointer;
 }
-
-/*============================== Industry Menu =========================== */
 
 .industry-menu .industry-name {
   display: inline-block;
   margin: 20px;
   padding: 12px 25px;
-  border: 2px solid rgb(18, 185, 18);
+  border: 2px solid #00ff9d;
   background: transparent;
-  color: rgb(34, 204, 34);
+  color: #00ff9d;
   border-radius: 25px;
   cursor: pointer;
+  font-weight: bold;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .industry-menu .industry-name:hover {
-  background: rgb(23, 219, 23);
+  background: #00ff9d;
   color: black;
 }

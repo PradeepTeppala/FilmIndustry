@@ -29,19 +29,19 @@ function Home() {
 
           <div className="industry-menu">
             <Link className="industry-name" to="/tollywood">
-              tollywood
+              Tollywood
             </Link>
             <Link className="industry-name" to="/bollywood">
-              bollywood
+              Bollywood
             </Link>
             <Link className="industry-name" to="/kollywood">
-              kollywood
+              Kollywood
             </Link>
             <Link className="industry-name" to="/mollywood">
-              mollywood
+              Mollywood
             </Link>
             <Link className="industry-name" to="/sandalwood">
-              sandalwood
+              Sandalwood
             </Link>
           </div>
         </div>

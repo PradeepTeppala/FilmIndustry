@@ -21,7 +21,8 @@
   margin-bottom: 20px;
   text-align: left;
   padding: 12px 50px;
-  background: linear-gradient(45deg, green 30%, black 50%);
+  background: linear-gradient(45deg, #00ff9d, black 50%);
+  font-family: "Rajdhani", sans-serif;
 }
 
 .movie-posters {
