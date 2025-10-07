@@ -1,37 +1,37 @@
 export const MollyWoodHerosData = [
   {
     id: 1,
-    image: "",
+    image: "/src/Components/Assets/MollyWood/DQ.jpg",
     name: "Dulquer Salmaan",
     Link: "https://en.wikipedia.org/wiki/Dulquer_Salmaan",
   },
   {
     id: 2,
-    image: "",
+    image: "/src/Components/Assets/MollyWood/FahadhFaasil.jpg",
     name: "Fahadh Faasil",
     Link: "https://en.wikipedia.org/wiki/Fahadh_Faasil",
   },
   {
     id: 3,
-    image: "",
+    image: "/src/Components/Assets/MollyWood/Prithvi.jpg",
     name: "Prudvi Raj",
     Link: "https://en.wikipedia.org/wiki/Prudhvi_Raj",
   },
   {
     id: 4,
-    image: "",
+    image: "/src/Components/Assets/MollyWood/TovinoThomas.jpg",
     name: "Tovino Thomas",
     Link: "https://en.wikipedia.org/wiki/Tovino_Thomas",
   },
   {
     id: 5,
-    image: "",
+    image: "/src/Components/Assets/MollyWood/Unni.jpg",
     name: "Unni Mukundan",
     Link: "https://en.wikipedia.org/wiki/Unni_Mukundan",
   },
   {
     id: 6,
-    image: "",
+    image: "/src/Components/Assets/MollyWood/NivinPauly.jpg",
     name: "Nivin Pauly",
     Link: "https://en.wikipedia.org/wiki/Nivin_Pauly",
   },

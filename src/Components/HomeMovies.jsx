@@ -88,19 +88,19 @@ function HomeMovies() {
           <h2>SandleWood Top Movies</h2>
           <div className="movie-posters">
             <img
-              src="src/Components/Assets/SandleWood/KGF-2.jpg"
+              src="src/Components/Assets/SandalWood/KGF-2.jpg"
               alt="Bahubali2"
             />
             <img
-              src="src/Components/Assets/SandleWood/Kantara.jpg"
+              src="src/Components/Assets/SandalWood/Kantara.jpg"
               alt="Bahubali2"
             />
             <img
-              src="src/Components/Assets/SandleWood/James.jpg"
+              src="src/Components/Assets/SandalWood/James.jpg"
               alt="Bahubali2"
             />
             <img
-              src="src/Components/Assets/SandleWood/Charlie777.jpeg"
+              src="src/Components/Assets/SandalWood/Charlie777.jpeg"
               alt="Bahubali2"
             />
           </div>

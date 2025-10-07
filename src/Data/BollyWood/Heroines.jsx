@@ -1,15 +1,15 @@
 export const BollyWoodHeroinesData = [
   {
     id: 1,
-    image: "/src/Components/Assets/BollyWood/DeepikaPadukone.jpg",
+    image: "/src/Components/Assets/BollyWood/Deepika.jpg",
     name: "Deepika Padukone",
     Link: "https://en.wikipedia.org/wiki/Deepika_Padukone",
   },
   {
     id: 2,
-    image: "/src/Components/Assets/BollyWood/KatrinaKaif.jpg",
-    name: "Katrina Kaif",
-    Link: "https://en.wikipedia.org/wiki/Katrina_Kaif",
+    image: "/src/Components/Assets/BollyWood/Priyanka.jpg",
+    name: "Priyanka Chopra",
+    Link: "https://en.wikipedia.org/wiki/Priyanka_Chopra",
   },
   {
     id: 3,
@@ -19,14 +19,13 @@ export const BollyWoodHeroinesData = [
   },
   {
     id: 4,
-    image: "/src/Components/Assets/BollyWood/AnushkaSharma.jpg",
-
-    name: "Anushka Sharma",
+    image: "/src/Components/Assets/BollyWood/Kiara.jpg",
+    name: "Kaira Advani",
     Link: "https://en.wikipedia.org/wiki/Anushka_Sharma",
   },
   {
     id: 5,
-    image: "/src/Components/Assets/BollyWood/ShraddhaKapoor.jpg",
+    image: "/src/Components/Assets/BollyWood/Shraddha.jpg",
     name: "Shraddha Kapoor",
     Link: "https://en.wikipedia.org/wiki/Shraddha_Kapoor",
   },

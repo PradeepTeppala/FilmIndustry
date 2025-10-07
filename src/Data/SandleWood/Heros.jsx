@@ -1,44 +1,39 @@
 export const SandalWoodHerosData = [
-  {
+    {
     id: 1,
-    image: "",
+    image: "/src/Components/Assets/SandalWood/Puneeth.jpg",
+    name: "Punith Rajkumar",
+    Link: "https://en.wikipedia.org/wiki/Puneeth_Rajkumar",
+  },
+  {
+    id: 2,
+    image: "/src/Components/Assets/SandalWood/Yash.jpg",
     name: "Yash",
     Link: "https://en.wikipedia.org/wiki/Yash_(actor)",
   },
   {
-    id: 2,
-    image: "",
-    name: "Puneeth Rajkumar",
-    Link: "https://en.wikipedia.org/wiki/Puneeth_Rajkumar",
-  },
-  {
     id: 3,
-    image: "",
-    name: "Darshan",
-    Link: "https://en.wikipedia.org/wiki/Darshan_(actor)",
+    image: "/src/Components/Assets/SandalWood/RishabShetty.jpg",
+    name:"Rishab Shetty",
+    Link: "https://en.wikipedia.org/wiki/Rishab_Shetty",
   },
   {
     id: 4,
-    image: "",
+    image: "/src/Components/Assets/SandalWood/SudeepKichha.jpg",
     name: "Sudeep",
     Link: "https://en.wikipedia.org/wiki/Kiccha_Sudeep",
   },
   {
     id: 5,
-    image: "",
-    name: "Ravi Teja",
-    Link: "https://en.wikipedia.org/wiki/Ravi_Tejas",
+    image: "/src/Components/Assets/SandalWood/RakshitShetty.jpg",
+    name:"Rakshit Shetty",
+    Link: "https://en.wikipedia.org/wiki/Rakshit_Shetty",
+    
   },
   {
     id: 6,
-    image: "",
-    name: "Ganesh",
-    Link: "https://en.wikipedia.org/wiki/Ganesh_(actor)",
-  },
-  {
-    id: 7,
-    image: "",
-    name: "Shivarajkumar",
-    Link: "https://en.wikipedia.org/wiki/Shivarajkumar",
+    image: "/src/Components/Assets/SandalWood/Darshan.jpg",
+    name: "Darshan",
+    Link: "https://en.wikipedia.org/wiki/Darshan_(Kannada_actor)",
   },
 ];

@@ -2,12 +2,12 @@ export const KollyWoodHerosData = [
   {
     id: 1,
     image: "/src/Components/Assets/KollyWood/Vijay.jpg",
-    name: "Vijay",
+    name: "Thalapathy Vijay",
     Link: "https://en.wikipedia.org/wiki/Vijay_(actor)",
   },
   {
     id: 2,
-    image: "/src/Components/Assets/KollyWood/AjithKumar.jpg",
+    image: "/src/Components/Assets/KollyWood/Ajith.jpg",
     name: "Ajith Kumar",
     Link: "https://en.wikipedia.org/wiki/Ajith_Kumar",
   },
@@ -19,20 +19,20 @@ export const KollyWoodHerosData = [
   },
   {
     id: 4,
-    image: "/src/Components/Assets/KollyWood/Simbu.jpg",
-    name: "Simbu",
-    Link: "https://en.wikipedia.org/wiki/S._J._Suryah",
-  },
-  {
-    id: 5,
     image: "/src/Components/Assets/KollyWood/Dhanush.jpg",
     name: "Dhanush",
     Link: "https://en.wikipedia.org/wiki/Dhanush_(actor)",
   },
   {
+    id: 5,
+    image:"/src/Components/Assets/KollyWood/Vikram.jpg",
+    name: "Vikram",
+    Link: "https://en.wikipedia.org/wiki/Vikram_(actor)",
+  },
+  {
     id: 6,
-    image: "/src/Components/Assets/KollyWood/Rajinikanth.jpg",
-    name: "Rajinikanth",
-    Link: "https://en.wikipedia.org/wiki/Rajinikanth",
+    image:"/src/Components/Assets/KollyWood/ShivaKarthikeyan.jpg",
+    name: "Shiva Karthikeyan",
+    Link: " https://en.wikipedia.org/wiki/Sivakarthikeyan",
   },
 ];
