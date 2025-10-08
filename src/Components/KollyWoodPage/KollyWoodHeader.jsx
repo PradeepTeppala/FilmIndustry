@@ -11,12 +11,28 @@ function KollyWoodHeader() {
           <div className="title">
             <h1>KollyWood</h1>
           </div>
-          <div className="kollywoodheader-menu">
-            <Link to="/">Home</Link>
-            <p>Industry</p>
-            <p>Movies</p>
-            <p>Webseries</p>
-            <VscAccount className="Account" />
+          <div className="nav-icons-container">
+            <nav className="nav">
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+              <Link to="/industry" className="nav-link">
+                Industry
+              </Link>
+              <Link to="/movies" className="nav-link">
+                Movies
+              </Link>
+              <Link to="/webseries" className="nav-link">
+                WebSeries
+              </Link>
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
+            </nav>
+
+            <div className="icons">
+              <VscAccount className="icon account" />
+            </div>
           </div>
         </div>
       </div>
