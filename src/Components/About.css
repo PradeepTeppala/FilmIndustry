@@ -1,0 +1,157 @@
+.about-container {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 8%;
+  text-align: center;
+  font-family: "Rajadhani", sans-serif;
+  overflow-x: hidden;
+}
+
+.about-title {
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  position: relative;
+  animation: fadeDown 1s ease;
+  text-shadow: 1px 5px 7px #00ff9d;
+  text-transform: uppercase;
+}
+
+.about-title span {
+  color: #000;
+  text-shadow: 1px 5px 7px #00ff9d;
+  text-transform: uppercase;
+}
+
+.about-description {
+  margin: auto 70px;
+  font-size: 1.2rem;
+  color: #00ff9d;
+  line-height: 1.8;
+  margin-bottom: 60px;
+  animation: fadeIn 2s ease;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.about-icons-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about-card {
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #00ff9d;
+  border-radius: 15px;
+  width: 250px;
+  padding: 30px 20px;
+  box-shadow: 0 0 15px #00ff9d33;
+  transition: all 0.4s ease;
+  animation: fadeUp 1.5s ease;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.about-card:hover {
+  background: #00ff9d15;
+  box-shadow: 0 0 30px #00ff9d77;
+  transform: translateY(-10px);
+}
+
+.about-icon {
+  font-size: 3rem;
+  color: #00ff9d;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover .about-icon {
+  transform: rotate(10deg) scale(1.1);
+  text-shadow: 0 0 15px #00ff9d;
+}
+
+.about-card h3 {
+  color: #00ff9d;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.about-card p {
+  font-size: 0.95rem;
+  color: #dcdcdc;
+  line-height: 1.6;
+}
+
+.mission-section {
+  margin-top: 80px;
+  background: linear-gradient(90deg, #001a12, #003321);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #00ff9d33;
+  animation: fadeUp 2s ease;
+}
+
+.mission-icon {
+  font-size: 3rem;
+  color: #00ff9d;
+  margin-bottom: 15px;
+  animation: rotateIn 2s ease;
+}
+
+.mission-section h2 {
+  color: #00ff9d;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.mission-section p {
+  font-size: 1.1rem;
+  color: #dcdcdc;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    transform: rotate(-180deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}

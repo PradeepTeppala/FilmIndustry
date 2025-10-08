@@ -6,6 +6,7 @@ import { BsSearch } from "react-icons/bs";
 import Footer from "./Footer";
 import Header from "./Header";
 import HomeMovies from "./HomeMovies";
+import About from "./About";
 
 function Home() {
   return (
@@ -46,6 +47,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <About/>
       <HomeMovies />
       <Footer />
     </>

@@ -1,3 +1,4 @@
+import About from "./Components/About";
 import BollyWoodPage from "./Components/BollyWoodPage/BollyWoodPage";
 import Home from "./Components/Home";
 import HomeMovies from "./Components/HomeMovies";
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About/>} />
           <Route path="/movies" element={<HomeMovies/>} />
           <Route path="/tollywood" element={<TollyWoodPage />} />
           <Route path="/bollywood" element={<BollyWoodPage />} />
