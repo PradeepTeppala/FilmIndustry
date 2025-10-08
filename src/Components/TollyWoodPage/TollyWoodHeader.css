@@ -1,5 +1,5 @@
 .tollywoodheader-container {
-  background: linear-gradient(45deg, rgb(11, 214, 11) 10%, black 70%);
+  background: linear-gradient(45deg, #00ff9d 10%, black 70%);
   padding: 0 20px;
   height: 80px;
   display: flex;
@@ -11,6 +11,7 @@
   font-size: 35px;
   letter-spacing: 1px;
   cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .tollywoodheader-menu {
