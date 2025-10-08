@@ -1,5 +1,5 @@
 .mollywoodheader-container {
-  background: linear-gradient(45deg, rgb(11, 214, 11) 10%, black 70%);
+  background: linear-gradient(45deg, #00ff9d 10%, black 70%);
   padding: 0 20px;
   height: 80px;
   display: flex;
@@ -11,15 +11,7 @@
   font-size: 35px;
   letter-spacing: 1px;
   cursor: pointer;
-}
-
-.mollywoodheader-menu {
-  display: flex;
-  color: white;
-  gap: 20px;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .mollywoodheader-content {
@@ -29,6 +21,66 @@
   width: 100%;
   margin-right: 70px;
 }
-.Account {
-  font-size: 20px;
+
+.nav-icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-link {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #00ff9d, #00ffa1, #00ffea);
+  transition: width 0.4s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #00ff9d;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.icon:hover {
+  color: #00ff9d;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px #00ff9d;
+}
+.account {
+  margin-left: 20px;
 }

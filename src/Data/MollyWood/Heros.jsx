@@ -15,7 +15,7 @@ export const MollyWoodHerosData = [
     id: 3,
     image: "/src/Components/Assets/MollyWood/Prithvi.jpg",
     name: "Prudvi Raj",
-    Link: "https://en.wikipedia.org/wiki/Prudhvi_Raj",
+    Link: "https://en.wikipedia.org/wiki/Prithviraj_Sukumaran",
   },
   {
     id: 4,

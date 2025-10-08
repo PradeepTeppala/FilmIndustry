@@ -33,6 +33,6 @@ export const MollyWoodMusicDirectorsData = [
     id: 6,
     image: "/src/Components/Assets/MollyWood/MejjoJoseph.jpg",
     name: "Mejjo Joseph",
-    Link: "https://en.wikipedia.org/wiki/Mejjo_Joseph",
+    Link: "https://en.wikipedia.org/wiki/Mejo_Joseph",
   },
 ];
