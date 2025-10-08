@@ -5,12 +5,15 @@ import { BollyWoodHeroinesData } from "../../Data/BollyWood/Heroines";
 function BollyWoodHeroine() {
   return (
     <>
+      <div className="heros-title">
+        <h2>BollyWood Heroine's</h2>
+      </div>
       <div className="bollywoodhero-container">
         <div className="bollywood-heroines">
           {BollyWoodHeroinesData.map((Heroine) => (
             <div key={Heroine.id}>
               <img src={Heroine.image} alt="" />
-              <div className="heroine-details">
+              <div className="heroines-details">
                 <h3>{Heroine.name}</h3>
                 <a
                   href={Heroine.Link}

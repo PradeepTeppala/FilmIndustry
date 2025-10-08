@@ -5,7 +5,7 @@ import { TollyWoodHeroinesData } from "../../Data/TollyWood/Heroines";
 function TollyWoodHeroine() {
   return (
     <>
-      <div className="heros-title">
+      <div className="heroines-title">
         <h2>TollyWood Heroine's</h2>
       </div>
       <div className="tollywoodhero-container">

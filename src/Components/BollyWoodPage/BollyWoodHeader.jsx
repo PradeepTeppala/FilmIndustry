@@ -6,20 +6,36 @@ import "./BollyWoodHeader.css";
 function BollyWoodHeader() {
   return (
     <>
-      <div className="bollywoodheader-container">
-        <div className="bollywoodheader-content">
-          <div className="title">
-            <h1>BollyWood</h1>
-          </div>
-          <div className="bollywoodheader-menu">
-            <Link to="/">Home</Link>
-            <p>Industry</p>
-            <p>Movies</p>
-            <p>Webseries</p>
-            <VscAccount className="Account" />
-          </div>
-        </div>
-      </div>
+            <div className="bollywoodheader-container">
+              <div className="bollywoodheader-content">
+                <div className="title">
+                  <h1>BollyWood</h1>
+                </div>
+                <div className="nav-icons-container">
+                  <nav className="nav">
+                    <Link to="/" className="nav-link">
+                      Home
+                    </Link>
+                    <Link to="/industry" className="nav-link">
+                      Industry
+                    </Link>
+                    <Link to="/movies" className="nav-link">
+                      Movies
+                    </Link>
+                    <Link to="/webseries" className="nav-link">
+                      WebSeries
+                    </Link>
+                    <Link to="/about" className="nav-link">
+                      About
+                    </Link>
+                  </nav>
+      
+                  <div className="icons">
+                    <VscAccount className="icon account" />
+                  </div>
+                </div>
+              </div>
+            </div>
     </>
   );
 }

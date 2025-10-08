@@ -21,7 +21,7 @@ export const BollyWoodHeroinesData = [
     id: 4,
     image: "/src/Components/Assets/BollyWood/Kiara.jpg",
     name: "Kaira Advani",
-    Link: "https://en.wikipedia.org/wiki/Anushka_Sharma",
+    Link: "https://en.wikipedia.org/wiki/Kiara_Advani",
   },
   {
     id: 5,
