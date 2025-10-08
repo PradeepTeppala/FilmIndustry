@@ -5,12 +5,15 @@ import { SandalWoodHeroinesData } from "../../Data/SandleWood/Heroines";
 function SandalWoodHeroine() {
   return (
     <>
+      <div className="heroines-title">
+        <h2>SandalWood Heroine's</h2>
+      </div>
       <div className="sandalwoodhero-container">
         <div className="sandalwood-heroines">
           {SandalWoodHeroinesData.map((Heroine) => (
             <div key={Heroine.id}>
               <img src={Heroine.image} alt="" />
-              <div className="heroine-details">
+              <div className="heroines-details">
                 <h3>{Heroine.name}</h3>
                 <a
                   href={Heroine.Link}
